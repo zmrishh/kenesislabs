@@ -13,11 +13,11 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="services">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Our Services"
+          text="KenesisLabs unlocks the potential of AI-powered applications"
         />
 
         <div className="relative">
@@ -33,10 +33,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Machine Learning as a Service</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
-              </p>
+              (MLaaS) - A cloud-based platform that allows businesses to develop, deploy, and manage machine learning models without the need for extensive in-house expertise              </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
@@ -65,26 +64,24 @@ const Services = () => {
                 />
               </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+              <div className="absolute inset-0 flex flex-col justify-center p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+                <h4 className="h4 mb-4">Blockchain</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                A scalable and secure platform that enables businesses to build and deploy blockchain applications with ease.
                 </p>
               </div>
 
-              <PhotoChatMessage />
+              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">SaaP Solutions</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                Software and Platform solutions tailored to specific industry needs, such as supply chain management, finance, and healthcare.
                 </p>
 
-                <ul className="flex items-center justify-between">
+                {/* <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
                     <li
                       key={index}
@@ -105,7 +102,7 @@ const Services = () => {
                       </div>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">

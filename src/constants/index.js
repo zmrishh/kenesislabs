@@ -39,36 +39,35 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#home",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+  // {
+  //   id: "1",
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "About",
+    url: "#about",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Services",
+    url: "#services",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Projects",
+    url: "#projects",
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -78,9 +77,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Voice cloning Models",
+  "Classfication Models",
+  "Generative Models",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,41 +93,41 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Grands",
+    text: "Tailored for elderly, integrating medication reminders, health records, & voice-cloning chatbot.",
+    date: "Dec 2023",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Electronic Health Record",
+    text: "Electronic Health Records (EHR) are digital versions of a patient's medical history, providing a comprehensive and easily accessible overview of their health journey.",
+    date: "Jan 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Blog Generation",
+    text: "Innovative blog creation leveraging Langchain's powerful language models. Automatically generates engaging, informative content tailored to your niche. Streamlines blogging process, enhancing productivity and quality.",
+    date: "Nov 2023",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "Virutal Asst. for legal rights",
+    text: "Empowering chatbot provides legal knowledge, educating Indians about their rights. Accessible platform fosters legal literacy, promoting justice and equality.",
     date: "May 2023",
-    status: "progress",
+    status: "done",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "KENESISLABS is a tech startup led by four sophomore students, creating a cutting-edge Electronic Medical Record (EMR) system to revolutionize healthcare. Passionate about innovation, we aim to enhance efficiency and patient care. Join us as we transform healthcare through technology.";
 
 export const collabContent = [
   {
@@ -295,34 +294,34 @@ export const benefits = [
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
+  // {
+  //   id: "0",
+  //   title: "Discord",
+  //   iconUrl: discordBlack,
+  //   url: "#",
+  // },
   {
     id: "1",
-    title: "Twitter",
+    title: "X",
     iconUrl: twitter,
-    url: "#",
+    url: "https://twitter.com/KenesisLabs",
   },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
+  // {
+  //   id: "2",
+  //   title: "Instagram",
+  //   iconUrl: instagram,
+  //   url: "#",
+  // },
+  // {
+  //   id: "3",
+  //   title: "Telegram",
+  //   iconUrl: telegram,
+  //   url: "#",
+  // },
   {
     id: "4",
-    title: "Facebook",
+    title: "LinkedIn",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.linkedin.com/company/kenesislabs/?viewAsMember=true",
   },
 ];
